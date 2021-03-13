@@ -16,15 +16,6 @@ begin
   assign(f,filein);
   reset(f);
   readln(f,n);
-  if n>100000 then
-  begin
-    close(f);
-    assign(f,fileout);
-    rewrite(f);
-    writeln(f,'n>10^5');
-    close(f);
-    exit;
-  end;
   for i:=1 to n do readln(f,t[i]);
   close(f);
   //for i:=1 to n do write(t[i],#32); //debug only
@@ -33,6 +24,14 @@ end;
 procedure proc;
 var fr,bk,tmp:int64;
 begin
+  if n>100000 then
+  begin
+    assign(f,fileout);
+    rewrite(f);
+    writeln(f,'n>10^5');
+    close(f);
+    exit;
+  end;
   fr:=0; bk:=0; tmp:=0;
   assign(f,fileout);
   rewrite(f);
@@ -47,7 +46,7 @@ begin
     //writeln(tmp);
     if tmp=t[i] then writeln(f,'YES') else writeln(f,'NO')
   end
-  else writeln(f,'Ko phai snt hoac lon hon 2*10^7');
+  else if snt(t[i])=false then writeln(f,'Ko phai snt') else if t[i]>20000000 then writeln(f,'So lon hon 2x10^7');
   close(f);
 end;
 
