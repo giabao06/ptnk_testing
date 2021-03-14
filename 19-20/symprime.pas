@@ -44,7 +44,8 @@ begin
     repeat bk:=bk-1 until snt(bk);
     tmp:=(fr+bk) div 2;
     //writeln(tmp);
-    if tmp=t[i] then writeln(f,'YES') else writeln(f,'NO')
+    if tmp=t[i] then writeln(f,'YES') else writeln(f,'NO');
+    tmp:=0;
   end
   else if snt(t[i])=false then writeln(f,'Ko phai snt') else if t[i]>20000000 then writeln(f,'So lon hon 2x10^7');
   close(f);
