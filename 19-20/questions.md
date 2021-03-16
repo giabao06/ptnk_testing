@@ -1,5 +1,5 @@
 # Đề thi chuyên tin Phổ thông Năng khiếu ĐHQG TP.HCM 2019-2020
-[Source: ](http://www.chuyentin.pro/2019/05/e-thi-tuyen-sinh-lop-10-chuyen-tin.html)
+[Source](http://www.chuyentin.pro/2019/05/e-thi-tuyen-sinh-lop-10-chuyen-tin.html)
 
 ![Tóm tắt, dạng file](https://1.bp.blogspot.com/-qosryDEYkug/XO5wDeowDOI/AAAAAAAATbo/rXbMiLaaakQlp7lJa2sYPep_9N697k-bgCLcBGAs/s1600/1.png)
 ![Bài 1 - Snt đối xứng](https://1.bp.blogspot.com/-9HhcUMC_Wok/XO5wDq2W14I/AAAAAAAATbw/oZbwdco6X_wNdX7mTKxFIRLqrVb3_0SAwCLcBGAs/s1600/2.png)
