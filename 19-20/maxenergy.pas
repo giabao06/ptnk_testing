@@ -19,12 +19,6 @@ BEGIN
   assign(f,outfile);
   rewrite(f);
   large:=0; x:=0; y:=0; z:=0; Q:=0;
-  if (n<3) or (n>1000000) then
-  begin
-    writeln(f,'n<3 hoac n>1000000');
-    close(f);
-    exit;
-  end;
   for i:=1 to n-3 do
   for j:=i+1 to n-2 do
   for k:=j+1 to n do

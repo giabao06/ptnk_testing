@@ -24,19 +24,11 @@ end;
 procedure proc;
 var fr,bk,tmp:int64;
 begin
-  if n>100000 then
-  begin
-    assign(f,fileout);
-    rewrite(f);
-    writeln(f,'n>10^5');
-    close(f);
-    exit;
-  end;
   fr:=0; bk:=0; tmp:=0;
   assign(f,fileout);
   rewrite(f);
   for i:=1 to n do
-  if (snt(t[i])) and (t[i]<20000000) then
+  if (snt(t[i])) then
   begin
     fr:=t[i]+1;
     bk:=t[i]-1;
@@ -47,7 +39,7 @@ begin
     if tmp=t[i] then writeln(f,'YES') else writeln(f,'NO');
     tmp:=0;
   end
-  else if snt(t[i])=false then writeln(f,'Ko phai snt') else if t[i]>20000000 then writeln(f,'So lon hon 2x10^7');
+  else if snt(t[i])=false then writeln(f,'Ko phai snt');
   close(f);
 end;
 
