@@ -1,6 +1,6 @@
 program maxenergy;
 const infile='maxenergy.inp'; outfile='maxenergy.out';
-var f:text; t:ARRAY[1..100] OF int64; x,y,z,n,Q:int64;
+var f:text; t:ARRAY[1..1000000] OF int64; x,y,z,n,Q:int64;
 
 procedure fread;
 var i:int64;
@@ -23,12 +23,6 @@ BEGIN
   for j:=i+1 to n-2 do
   for k:=j+1 to n do
   begin
-    if (t[i]>1000000) or (t[j]>1000000) or (t[k]>1000000) then
-    begin
-      writeln(f,'Trong day co 1 so > 1000000');
-      close(f);
-      exit;
-    end;
     x:=t[i];
     y:=t[j];
     z:=t[k];

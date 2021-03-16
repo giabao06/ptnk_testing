@@ -1,6 +1,6 @@
 program symprime;
 const filein='symprime.inp'; fileout='symprime.out';
-var i:INTEGER; n:int64; t:ARRAY[1..100] OF int64; f:text;
+var i:INTEGER; n:int64; t:ARRAY[1..100000] OF int64; f:text;
 
 function snt(x:int64):boolean;
 var i:INTEGER;
