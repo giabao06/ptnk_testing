@@ -12,6 +12,7 @@ Tổng quan đề:
 (Dấu * được thay thế bởi pas hoặc cpp của ngôn ngữ lập trình sử dụng tương ứng là Pascal hoặc C++)
 
 **Bài 1: Cặp số**
+
 Cho số nguyên dương n (2 ≤ n ≤ 10^9). Trong tất cả các cặp số nguyên dương (a,b) thỏa mãn a+b=n, hãy tìm cặp số sao cho LCM(a,b) đạt lớn nhất, với LCM(a,b) là bội số chung nhỏ nhất của a và b (số nguyên dương nhỏ nhất chia hết cho cả a và b).
 
 **Dữ liệu:** Vào từ tập tin văn bản **pairlcm.inp** chứa số nguyên n
@@ -25,6 +26,7 @@ Cho số nguyên dương n (2 ≤ n ≤ 10^9). Trong tất cả các cặp số 
 |  10   |  21   |
 
 **Bài 2: Sơn hình vuông**
+
 Cho một hình vuông kích thước nxn chia thành các ô vuông đơn vị 1*1. Người ta sơn hình vuông theo cách sau:
 - Ban đầu, sơn toàn bộ các hình vuông đơn vị bao phía ngoài cùng của hình vuông ban đầu bằng màu đỏ, ta gọi là lớp hình vuông thứ nhất
 - Sơn toàn bộ các hình vuông đơn vị giáp với lớp ngoài cùng bằng màu xanh, gọi là lớp hình vuông thứ hai
