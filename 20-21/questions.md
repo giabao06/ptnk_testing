@@ -9,7 +9,7 @@ Tổng quan đề:
 |  3  | Dãy ngoặc         | parentheses.*   |     1s     |  1024 MB  |
 |  4  | Hệ thống giám sát | monitor.*       |     1s     |  1024 MB  |
 
-(Dấu * được thay thế bởi pas hoặc cpp của ngôn ngữ lập trình sử dụng tương ứng là Pascal hoặc C++
+(Dấu * được thay thế bởi pas hoặc cpp của ngôn ngữ lập trình sử dụng tương ứng là Pascal hoặc C++)
 
 **Bài 1: Cặp số**
 Cho số nguyên dương n (2 ≤ n ≤ 10^9). Trong tất cả các cặp số nguyên dương (a,b) thỏa mãn a+b=n, hãy tìm cặp số sao cho LCM(a,b) đạt lớn nhất, với LCM(a,b) là bội số chung nhỏ nhất của a và b (số nguyên dương nhỏ nhất chia hết cho cả a và b).
