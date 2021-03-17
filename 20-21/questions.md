@@ -11,8 +11,8 @@ Tổng quan đề:
 
 (Dấu * được thay thế bởi pas hoặc cpp của ngôn ngữ lập trình sử dụng tương ứng là Pascal hoặc C++
 
-**Bài 1: Cặp số** 
-Cho số nguyên dương n (2 ≤ n ≤ $$10^9$$). Trong tất cả các cặp số nguyên dương (a,b) thỏa mãn a+b=n, hãy tìm cặp số sao cho LCM(a,b) đạt lớn nhất, với LCM(a,b) là bội số chung nhỏ nhất của a và b (số nguyên dương nhỏ nhất chia hết cho cả a và b).
+**Bài 1: Cặp số**
+Cho số nguyên dương n (2 ≤ n ≤ 10^9). Trong tất cả các cặp số nguyên dương (a,b) thỏa mãn a+b=n, hãy tìm cặp số sao cho LCM(a,b) đạt lớn nhất, với LCM(a,b) là bội số chung nhỏ nhất của a và b (số nguyên dương nhỏ nhất chia hết cho cả a và b).
 
 **Dữ liệu:** Vào từ tập tin văn bản **pairlcm.inp** chứa số nguyên n
 **Kết quả:** Ghi ra tập tin văn bản **pairlcm.out** giá trị LCM lớn nhất tìm được
@@ -38,7 +38,7 @@ Ví dụ với hình vuông kích thước n = 11, sau khi sơn ta có hình min
 
 **Dữ liệu:** Vào từ tập tin văn bản **painting.inp**:
 
-- Dòng đầu tiên chứa 2 số nguyên n và K (n ≤ $$10^9$$; k ≤ $$10^3$$)
+- Dòng đầu tiên chứa 2 số nguyên n và K (n ≤ 10^9; k ≤ 10^3)
 - k dòng tiếp theo, mỗi dòng chứa 2 số nguyên i,j (1 ≤ i,j ≤ n)
 
 **Kết quả:** Ghi ra tập tin văn bản **painting.out** gồn k dòng, dòng thứ i ghi RED hoặc BLUE hoặc YELLOW cho biết màu của hình vuông được yêu cầu tương ứng với màu đỏ, xanh hoặc vàng.
@@ -63,7 +63,7 @@ Những xâu không xây dựng được theo các quy tắc trên không phải
 
 **Yêu cầu:** Cho xâu ký tự S gồm các ký tự thuộc [‘(‘,’)’], người ta cho phép thực hiện (0 hoặc 1 số) phép biến đổi, mỗi phép biến đổi sẽ chuyển ký tự ở đầu sâu S đến cuối sâu. Hãy tìm cách dùng ít phép biến đổi nhất để biến sâu S thành 1 dãy ngoặc hợp lệ.
 
-**Dữ liệu:** Vào từ tập tin vă bản **parentheses.inp** gồm 1 dòng chứa sâu S gồm không quá $$10^6$$ ký tự thuộc [‘(‘,’)’]
+**Dữ liệu:** Vào từ tập tin vă bản **parentheses.inp** gồm 1 dòng chứa sâu S gồm không quá 10^6 ký tự thuộc [‘(‘,’)’]
 
 **Kết quả:** Ghi ra tập tin văn bản **parentheses.out** một số nguyên duy nhất là số phép biến đổi cần sử dụng, nếu không có cách nào biến đổi sâu S thành dãy ngoặc hợp lệ, in ra số -1.
 
@@ -114,4 +114,3 @@ Hệ thống ghi nhận việc viếng thăm của người dân đến vùng c�
 | monitor.inp                  | monitor.out |
 | ---------------------------- | ----------- |
 | 10<br />7 2 10 7 2 6 3 3 3 6 | 6<br />5    |
-
