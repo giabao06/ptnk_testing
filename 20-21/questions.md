@@ -57,9 +57,7 @@ Ví dụ với hình vuông kích thước n = 11, sau khi sơn ta có hình min
 Một dãy ngoặc hợp lệ là một xâu các kí tự ‘(‘ và ‘)’ được định nghĩa như sau
 
 - Xâu rỗng là 1 dãy dấu ngoặc hợp lệ độ sâu 0
-
 - Nếu A là dãy dấu ngoặc hợp lệ thì (A) là dãy dấu ngoặc hợp lệ
-
 - Nếu A và B là 2 dãy dấu ngoặc hợp lệ thì AB (xâu tạo thành bằng cách ghép sâu A với sâu B) lã dãy dấu ngoặc hợp lệ
 
 Những xâu không xây dựng được theo các quy tắc trên không phải là dãy dấu ngoặc hợp lệ. Ví dụ: “((()()))” và “()()()” là những dãy ngoặc hợp lệ, “)()(“ và “((())” không là dãy ngoặc hợp lệ
@@ -92,11 +90,8 @@ Hệ thống ghi nhận việc viếng thăm của người dân đến vùng c�
 | **ID**    |  7   |  2   |  10  |  7   |  2   |  6   |  3   |  3   |  3   |  6   |
 
 - Người có ID = 2 có thời điểm thăm lần đầu và lần cuối là 2 và 5
-
 - Người có ID = 3 có thời điểm thăm lần đầu và lần cuối là 7 và 9
-
 - Người có ID = 7 có thời điểm thăm lần đâu và lần cuối là 1 và 4
-
 - Người có ID = 10 chỉ thăm 1 lần tại thời điểm 3.
 
 **Yêu cầu:** Cho dữ liệu ghi nhận các lần viếng thăm của người dân theo thứ tự thời gian. Hãy cho biết ID của người dân có khoảng cách từ thời điểm viếng thăm đầu tiên đến thời điểm viếng thăm cuối cùng là cách xa nhau nhất.
