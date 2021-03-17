@@ -24,7 +24,7 @@ Cho số nguyên dương n (2 ≤ n ≤ 10^9). Trong tất cả các cặp số 
 |  10   |  21   |
 
 **Bài 2: Sơn hình vuông**
-Cho một hình vuông kích thước n*n chia thành các ô vuông đơn vị 1*1. Người ta sơn hình vuông theo cách sau:
+Cho một hình vuông kích thước nxn chia thành các ô vuông đơn vị 1*1. Người ta sơn hình vuông theo cách sau:
 - Ban đầu, sơn toàn bộ các hình vuông đơn vị bao phía ngoài cùng của hình vuông ban đầu bằng màu đỏ, ta gọi là lớp hình vuông thứ nhất
 - Sơn toàn bộ các hình vuông đơn vị giáp với lớp ngoài cùng bằng màu xanh, gọi là lớp hình vuông thứ hai
 - Lớp hình vuông đơn vị tiếp theo giáp với lớp hình vuông thứ hai được sơn màu vàng, gọi là lớp hình vuông thứ 3
