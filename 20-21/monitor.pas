@@ -12,6 +12,22 @@ begin
   close(f);
 end;
 
+procedure sort;
+var i,j,ind:int64;
+begin
+  for i:=2 to n-1 do
+    begin
+      ind:=a[i];
+      j:=i;
+      while (j>i) and (a[j-1]>ind) do
+      begin
+        a[j]:=a[j-1];
+        j:=j-1;
+      end;
+    a[j]:=ind;
+    end;
+end;
+
 procedure proc;
 var i,j,count,lcount,id:integer;
 begin
@@ -35,5 +51,6 @@ end;
 
 begin
   fread;
+  sort;
   proc;
 end.
